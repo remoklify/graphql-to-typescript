@@ -1,8 +1,5 @@
-/**
- * @description holds library index
- */
+#!/usr/bin/env node
 
-// util
 import yargs from 'yargs/yargs';
 import * as inquirer from 'inquirer';
 import * as path from 'path';
