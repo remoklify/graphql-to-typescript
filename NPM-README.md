@@ -9,7 +9,7 @@ Remoklify - GraphQL to Typescript
 </h1>
 
 [![GitHubRepo](https://img.shields.io/badge/GitHub-Repository-24292e.svg?style=for-the-badge&logo=github)](https://github.com/remoklify/graphql-to-typescript)
-[![SonarCloud](https://img.shields.io/sonar/quality_gate/remoklify-graphql-to-typescript?server=https%3A%2F%2Fsonarcloud.io&label=Sonar%20Cloud&style=for-the-badge&logo=sonarcloud)](https://sonarcloud.io/dashboard?id=remoklify-graphql-to-typescript)
+[![SonarCloud](https://img.shields.io/sonar/quality_gate/remoklify_graphql-to-typescript?server=https%3A%2F%2Fsonarcloud.io&label=Sonar%20Cloud&style=for-the-badge&logo=sonarcloud)](https://sonarcloud.io/dashboard?id=remoklify_graphql-to-typescript)
 
 Generates typescript codes for client by only taking the inputs GraphQL Api url and Authorization.
 
