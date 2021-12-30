@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-[Remoklify](https://github.com/remoklify) - GraphQL to Typescript
+Remoklify - GraphQL to Typescript
 </h1>
 
 [![GitHubRepo](https://img.shields.io/badge/GitHub-Repository-24292e.svg?style=for-the-badge&logo=github)](https://github.com/remoklify/graphql-to-typescript)
