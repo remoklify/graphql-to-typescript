@@ -1,6 +1,6 @@
 <p align="center">
-   <a href="https://opentemplatehub.com">
-    <img src="https://github.com/remoklify/remoklify.github.io/tree/master/assets/logo/brand-logo.png" alt="Logo" width=200>
+  <a href="https://remoklify.com">
+    <img src="https://raw.githubusercontent.com/remoklify/remoklify.github.io/master/assets/logo/brand-logo.png" alt="Logo" width=200>
   </a>
 </p>
 
@@ -50,4 +50,3 @@ No sponsors yet! **Will you be the first?**
 ## LICENSE
 
 The source code for this project is released under the [MIT License](https://github.com/remoklify/graphql-to-typescript/blob/develop/LICENSE).
-

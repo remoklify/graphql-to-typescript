@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://www.linkedin.com/company/open-template-hub">
-    <img src="https://github.com/remoklify/remoklify.github.io/tree/master/assets/logo/brand-logo.png" alt="Logo" width=200>
+  <a href="https://remoklify.com">
+    <img src="https://raw.githubusercontent.com/remoklify/remoklify.github.io/master/assets/logo/brand-logo.png" alt="Logo" width=200>
   </a>
 </p>
 
