@@ -10,6 +10,7 @@
     "build": "tsc"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "graphql": "^14.0.0",
     "graphql-schema-typescript": "^1.5.2",
     "json-to-graphql": "^0.1.1",
@@ -41,5 +42,8 @@
     "utility",
     "utilities",
     "token"
-  ]
+  ],
+  "devDependencies": {
+    "@types/node": "^17.0.5"
+  }
 }
