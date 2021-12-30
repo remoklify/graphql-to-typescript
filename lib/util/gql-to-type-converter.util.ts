@@ -1,12 +1,12 @@
 import * as fs from 'fs';
 import axios from 'axios';
-import { buildClientSchema, printSchema } from 'graphql';
+import { introspectionQuery, buildClientSchema, printSchema } from 'graphql';
 import { generateTypeScriptTypes } from 'graphql-schema-typescript';
 import * as path from 'path';
 
 export class GqlToTypeConverterUtil {
   convert = async (url: string, authorization: any, targetPath: string) => {
-    const query = fs.readFileSync('query.graphql', 'utf8');
+    const query = introspectionQuery;
     const response = await axios.post<any>(
       url,
       { query },
@@ -27,9 +27,7 @@ export class GqlToTypeConverterUtil {
       const schemaGeneratedPath = path.join(targetPath, 'schema.generated.ts');
       generateTypeScriptTypes(gql, schemaGeneratedPath)
         .then(() => {
-          console.log(
-            'Code is generated, please check the directory: /schema'
-          );
+          console.log('Code is generated, please check the directory: /schema');
         })
         .catch((err) => {
           throw err;
