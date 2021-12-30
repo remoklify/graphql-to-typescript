@@ -31,7 +31,7 @@ npm install -g @remoklify/graphql-to-typescript
 Run command:
 
 ```sh
-remoklify:graphql:codegen
+remoklify-graphql-codegen
 ```
 
 Give the GraphQL API url and auth token if necessary (without bearer)

@@ -10,7 +10,7 @@
     "build": "tsc"
   },
   "bin": {
-    "remoklify:graphql:codegen": "dist/index.js"
+    "remoklify-graphql-codegen": "dist/index.js"
   },
   "dependencies": {
     "axios": "^0.24.0",
