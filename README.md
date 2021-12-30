@@ -17,15 +17,26 @@ Remoklify - GraphQL to Typescript
 [![Release](https://img.shields.io/github/release/remoklify/graphql-to-typescript?include_prereleases&color=43b043&style=for-the-badge)](https://github.com/remoklify/graphql-to-typescript/releases)
 [![SonarCloud](https://img.shields.io/sonar/quality_gate/remoklify_graphql-to-typescript?server=https%3A%2F%2Fsonarcloud.io&label=Sonar%20Cloud&style=for-the-badge&logo=sonarcloud)](https://sonarcloud.io/dashboard?id=remoklify_graphql-to-typescript)
 
-Generates typescript codes for client by only taking the inputs GraphQL Api url and Authorization.
+Command-line interface generator that generates typescript codes for client by only taking the inputs GraphQL Api url and Authorization.
 
 ## About the NPM Package
 
 ### Package Installation
 
 ```sh
-npm install --save @remoklify/graphql-to-typescript
+npm install -g @remoklify/graphql-to-typescript
 ```
+
+### Usage
+Run command:
+
+```sh
+remoklify:graphql:codegen
+```
+
+Give the GraphQL API url and auth token if necessary (without bearer)
+? GraphQL API Url:  https://api.github.com/graphql
+? Auth Token (Optional):  ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # Sponsors
 
