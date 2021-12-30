@@ -7,12 +7,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "start": "ts-node index.ts",
-    "copy": "copyfiles query.graphql dist/",
-    "build": "tsc && npm run copy"
+    "build": "tsc"
   },
-  "assets": [
-    "query.graphql"
-  ],
   "bin": {
     "remoklify-graphql-codegen": "dist/index.js"
   },
