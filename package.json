@@ -1,6 +1,6 @@
 {
   "name": "@remoklify/graphql-to-typescript",
-  "description": "Generates typescript codes for client by only taking the inputs GraphQL Api url and Authorization.",
+  "description": "Command-line interface generator that generates typescript codes for client by only taking the inputs GraphQL Api url and Authorization.",
   "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index.js",
@@ -8,6 +8,9 @@
   "scripts": {
     "start": "ts-node index.ts",
     "build": "tsc"
+  },
+  "bin": {
+    "remoklify:graphql:codegen": "dist/index.js"
   },
   "dependencies": {
     "axios": "^0.24.0",
