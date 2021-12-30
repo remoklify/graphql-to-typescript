@@ -22,6 +22,11 @@ npm install -g @remoklify/graphql-to-typescript
 ```
 
 ### Usage
+Go to directory you want to generate client typescript codes from graphql schema:
+```sh
+cd Directory
+```
+
 Run command:
 
 ```sh
@@ -32,6 +37,11 @@ Give the GraphQL API url and auth token if necessary (without bearer)
 
 * ? GraphQL API Url:  https://api.github.com/graphql
 * ? Auth Token (Optional):  ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Check the directory /schema
+```sh
+cd schema
+```
 
 # Sponsors
 
