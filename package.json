@@ -1,7 +1,7 @@
 {
   "name": "@remoklify/graphql-to-typescript",
   "description": "Command-line interface generator that generates typescript codes for client by only taking the inputs GraphQL Api url and Authorization.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
