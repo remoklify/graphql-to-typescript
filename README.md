@@ -35,8 +35,9 @@ remoklify:graphql:codegen
 ```
 
 Give the GraphQL API url and auth token if necessary (without bearer)
-? GraphQL API Url:  https://api.github.com/graphql
-? Auth Token (Optional):  ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+* ? GraphQL API Url:  https://api.github.com/graphql
+* ? Auth Token (Optional):  ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # Sponsors
 

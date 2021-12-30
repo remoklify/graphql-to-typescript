@@ -28,7 +28,7 @@ export class GqlToTypeConverterUtil {
       generateTypeScriptTypes(gql, schemaGeneratedPath)
         .then(() => {
           console.log(
-            'Code is generated, please check the file: schema.generated.ts'
+            'Code is generated, please check the directory: /schema'
           );
         })
         .catch((err) => {
