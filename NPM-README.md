@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://remoklify.com">
-    <img src="https://raw.githubusercontent.com/remoklify/remoklify.github.io/master/assets/logo/favicon.png" alt="Logo" width=200>
+    <img src="https://raw.githubusercontent.com/remoklify/remoklify.github.io/master/assets/logo/favicon.png" alt="Logo" width=100>
   </a>
 </p>
 
